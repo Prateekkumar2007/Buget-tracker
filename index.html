@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Budget Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💰 Budget Tracker</h1>
+    
+    <label>Total Budget (₹)</label>
+    <input type="number" id="totalBudget" placeholder="Enter your budget">
+
+    <div class="category">
+      <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="Food" width="40"> Food (₹)
+      <label>Food (₹)</label>
+      <input type="number" id="food">
+    </div>
+
+    <div class="category">
+     <img src="https://cdn-icons-png.flaticon.com/512/854/854894.png" alt="Travel" width="40"> Travel (₹)
+      <label>Travel (₹)</label>
+      <input type="number" id="travel">
+    </div>
+
+    <div class="category">
+     <img src="https://cdn-icons-png.flaticon.com/512/1010/1010461.png" alt="Recharge" width="40"> Recharge (₹)
+      <label>Recharge (₹)</label>
+      <input type="number" id="recharge">
+    </div>
+
+    <div class="category">
+    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Others" width="40"> Others (₹)
+      <label>Others (₹)</label>
+      <input type="number" id="others">
+    </div>
+
+    <button onclick="calculate()">Track</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
